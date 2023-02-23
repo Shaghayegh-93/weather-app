@@ -9,10 +9,10 @@ const CityList = () => {
     { id: Math.floor(Math.random() * 1000), title: "manchester" },
   ];
   return (
-    <div className="mb-8">
-      <ul className="flex items-center justify-around ">
+    <div className=" mb-8">
+      <ul className="hidden  sm:flex items-center justify-around ">
         {cities.map((city) => (
-          <li key={city.id} className="cursor-pointer text-lg font-medium">
+          <li key={city.id} className="cursor-pointer md:text-lg md:font-medium ">
             {city.title}
           </li>
         ))}
