@@ -4,9 +4,9 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const InputCity = () => {
   return (
-    <form action="/">
+    <form action="/" className="">
       <div
-        className="flex justify-around items-center my-6 w-full
+        className="flex justify-between items-center my-6 w-full
       "
       >
         <div className="flex items-center gap-4 ">
@@ -24,8 +24,8 @@ const InputCity = () => {
             className="cursor-pointer text-white transition ease-out hover:scale-125"
           />
         </div>
-        <div className="flex cursor-pointer items-center justify-center">
-          <a href="/"> °C|</a>
+        <div className="flex cursor-pointer items-center justify-center text-white text-xl">
+          <a href="/"> °C |</a>
           <a href="/"> °F</a>
         </div>
       </div>
