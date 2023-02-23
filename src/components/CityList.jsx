@@ -10,7 +10,7 @@ const CityList = () => {
   ];
   return (
     <div className=" mb-8">
-      <ul className="hidden  sm:flex items-center justify-around ">
+      <ul className="hidden  sm:flex items-center justify-between ">
         {cities.map((city) => (
           <li key={city.id} className="cursor-pointer md:text-lg md:font-medium ">
             {city.title}
