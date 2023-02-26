@@ -6,7 +6,6 @@ const CityList = () => {
     { id: Math.floor(Math.random() * 1000), title: "manchester" },
     { id: Math.floor(Math.random() * 1000), title: "manchester" },
     { id: Math.floor(Math.random() * 1000), title: "manchester" },
-    { id: Math.floor(Math.random() * 1000), title: "manchester" },
   ];
   return (
     <div className=" mb-8">
