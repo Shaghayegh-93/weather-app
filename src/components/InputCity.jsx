@@ -9,7 +9,7 @@ const InputCity = () => {
         className="flex justify-between items-center my-6 w-full
       "
       >
-        <div className="flex items-center gap-4 ">
+        <div className="flex items-center gap-1 sm:gap-4 ">
           <input
             type="text"
             className="py-2 px-4 outline-none capitalize"
@@ -24,7 +24,7 @@ const InputCity = () => {
             className="cursor-pointer text-white transition ease-out hover:scale-125"
           />
         </div>
-        <div className="flex cursor-pointer items-center justify-center text-white text-xl">
+        <div className="flex cursor-pointer items-center justify-center text-white text-lg sm:text-xl">
           <a href="/"> °C |</a>
           <a href="/"> °F</a>
         </div>
