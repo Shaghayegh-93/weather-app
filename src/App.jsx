@@ -1,5 +1,6 @@
 import "./App.css";
 import CityList from "./components/CityList";
+import DetailWeatherInfo from "./components/DetailWeatherInfo";
 import InputCity from "./components/InputCity";
 import TimeAndLocation from "./components/TimeAndLocation";
 
@@ -10,6 +11,7 @@ function App() {
         <CityList />
         <InputCity />
         <TimeAndLocation />
+        <DetailWeatherInfo/>
       </div>
     </div>
   );
