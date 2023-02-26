@@ -12,7 +12,7 @@ const InputCity = () => {
         <div className="flex items-center gap-1 sm:gap-4 ">
           <input
             type="text"
-            className="py-2 px-4 outline-none capitalize"
+            className="py-1 px-2 sm:py-2 sm:px-4 outline-none capitalize"
             placeholder="Search..."
           />
           <AiOutlineSearch
