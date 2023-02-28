@@ -11,17 +11,17 @@ import {
 
 const DetailWeatherInfo = () => {
   return (
-    <div className="flex flex-col items-center w-full py-6">
+    <div className="flex flex-col items-center w-full ">
       <div className="">
         <p>Rain</p>
       </div>
-      <div className="flex items-center justify-between w-full py-3">
+      <div className="flex items-center justify-between w-full py-1">
         <img
           src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
           alt="weatherIcon"
           //   className="w-15"
         />
-        <span className="-ml-12 sm:ml-32">14°</span>
+        <span className="-ml-12 sm:ml-20 text-4xl">14°</span>
         <ul className="space-y-2 ">
           <li className="flex items-center ">
             <span>
@@ -45,7 +45,7 @@ const DetailWeatherInfo = () => {
           </li>
         </ul>
       </div>
-      <div className=" my-3 w-full hidden sm:block">
+      <div className=" my-1 w-full hidden sm:block">
         <ul className="flex items-center justify-around w-full ">
           <li className="flex items-center ">
             <BsSunrise className="mr-1" />
