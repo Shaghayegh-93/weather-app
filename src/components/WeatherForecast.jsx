@@ -1,7 +1,7 @@
 import React from "react";
 import WeatherForecastDetail from "./WeatherForecastDetail";
 
-const   = ({ title }) => {
+const WeatherForecast = ({ title }) => {
   return (
     <div className="mt-4">
       <div className="flex items-center justify-start">
